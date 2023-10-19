@@ -8,10 +8,9 @@ interface Props {
 const LotteryBall: React.FC<Props>  = ({number}) => {
     return (
         <div className="lotteryBall">
-            <p>{number}</p>
+            <p> <strong>{number}</strong></p>
         </div>
     );
 };
-// age={people[0].age}
 
 export default LotteryBall;

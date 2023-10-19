@@ -1,10 +1,20 @@
 .lotteryBall {
     display: inline-block;
     margin: 10px;
-    border: 1px solid #eee;
+    border: 2px solid #eee;
     border-radius: 50%;
     box-shadow: 0 2px 2px #ccc;
-    width: 200px;
-    padding: 20px;
+    height: 80px;
+    width: 80px;
     text-align: center;
+    background: #ffffff;
+}
+
+.lotteryBall > p {
+    margin-top: 28px;
+}
+
+body{
+    justify-content: center;
+    background: #eaeaea;
 }
